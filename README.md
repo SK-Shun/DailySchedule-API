@@ -3,6 +3,7 @@
 DailySchedule-API は、既存の `DailySchedule` https://github.com/SK-Shun/DailySchedule をもとに、画面表示中心のWebアプリケーションから REST API として利用できる形に再設計したスケジュール管理APIです。
 
 元の `DailySchedule` では、Thymeleaf を使った画面表示、フォーム送信、画面上でのエラー表示を中心に実装していました。  
+
 この `DailySchedule-API` では、同じスケジュール管理ドメインを維持しつつ、JSONリクエスト・JSONレスポンスで操作できる REST API として再構成しています。
 
 ---
